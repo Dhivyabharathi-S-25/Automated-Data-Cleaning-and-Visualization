@@ -1,0 +1,92 @@
+=========================================
+ TITANIC DATA CLEANING & REPORTING REPORT
+=========================================
+
+1. DATASET OVERVIEW
+-------------------
+Original Dataset Shape : (891, 12)
+Cleaned Dataset Shape  : (891, 12)
+
+2. MISSING VALUES BEFORE CLEANING
+---------------------------------
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+
+3. MISSING VALUES AFTER CLEANING
+--------------------------------
+PassengerId    0
+Survived       0
+Pclass         0
+Name           0
+Sex            0
+Age            0
+SibSp          0
+Parch          0
+Ticket         0
+Fare           0
+Cabin          0
+Embarked       0
+
+4. DUPLICATE RECORDS
+--------------------
+Duplicate Rows Found : 0
+
+5. DATA TYPES
+-------------
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+
+6. STATISTICAL SUMMARY
+----------------------
+Average Age      : 29.36
+Minimum Age      : 0.42
+Maximum Age      : 80.0
+
+Average Fare     : 32.2
+Minimum Fare     : 0.0
+Maximum Fare     : 512.3292
+
+Average Pclass   : 2.31
+Total Passengers : 891
+Total Survivors  : 342
+Survival Rate    : 38.38%
+
+7. SURVIVAL ANALYSIS
+--------------------
+Survived
+0    549
+1    342
+
+8. GENDER DISTRIBUTION
+----------------------
+Sex
+male      577
+female    314
+
+9. PASSENGER CLASS DISTRIBUTION
+-------------------------------
+Pclass
+3    491
+1    216
+2    184
+
